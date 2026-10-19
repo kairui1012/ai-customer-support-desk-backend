@@ -1,10 +1,8 @@
-from idlelib import autocomplete
-
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 
-from app.core.config import Settings, settings
+from app.core.config import settings
 
 DATABASE_URL = settings.DATABASE_URL
 
